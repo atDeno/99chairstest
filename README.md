@@ -9,16 +9,19 @@ Things you may want to cover:
 2.3.0
 
 * System dependencies
+none
 
 * Configuration
 
-* Database creation
+* Database Type
+Mongo
 
 * Database initialization
 
 * How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+* Services
+CSV Parsing service
 
 * Deployment instructions
 
