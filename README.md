@@ -15,3 +15,6 @@ Mongo
 
 * Services
 CSV Parsing service
+
+* Documentation
+It can be found under the link localhost:3000/docs/html/api.html

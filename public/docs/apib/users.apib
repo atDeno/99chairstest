@@ -1,0 +1,43 @@
+### create [POST /api/v1/users]
+
+Returns Users which are present in the given file
+
++ Request 200 (application/json)
+
+  + Headers
+
+            ACCESS_TOKEN: a838dd80b092cfbd432ed890f3cd9dc7
+  + Body
+
+            {
+              "users": {
+                "data": "Upload file here"
+              }
+            }
+
++ Response 200 (application/json)
+
+  + Body
+
+            {
+              "users": [
+                {
+                  "id": "5a11816ee60d6e43df62e205",
+                  "first_name": "Saleem",
+                  "count": 36,
+                  "last_name": "Merchant"
+                },
+                {
+                  "id": "5a11845fe60d6e73fe0456a0",
+                  "first_name": "Ather",
+                  "count": 9,
+                  "last_name": "Mohiuddin"
+                },
+                {
+                  "id": "5a118489e60d6e73fe0456a1",
+                  "first_name": "Munir",
+                  "count": 4,
+                  "last_name": "Sehgal"
+                }
+              ]
+            }
